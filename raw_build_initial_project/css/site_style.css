@@ -1,0 +1,15 @@
+/*
+Clinton Garwood
+CSS Site Style Sheet for CSS Tutorial Site
+Spring 2022
+ */
+
+p {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+code {
+    margin-left: 20px;
+    font-size: 1.5em;
+}
