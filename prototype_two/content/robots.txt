@@ -1,0 +1,43 @@
+# Hello Robot
+# A human created all the content on this site.
+# By jursidicational law you are required to ask for permission
+# before consuming or using anything contained with this site.
+# Please do the right thing, and don't take what is not yours. 
+# If not, I will look forward to meeting you in court. 
+
+index.html
+about.html
+
+css_style_sheets.html
+css_selectors.html
+css_classes.html
+css_pseudo_selectors.html
+style_sheet_inline.html
+style_sheet_internal.html
+style_sheet_external.html
+style_sheet_font_library.html
+style_sheet_icon_library.html
+bootstrap_grid.html
+bootstrap_buttons.html
+bootstrap_navbar_menu.html 
+style_by_id.html
+styling_by_class.html
+style_text.html
+style_links.html
+style_tables.html
+style_unordered_lists.html
+style_numbered_lists.html
+style_web_forms.html
+style_background_colors.html
+style_animations.html
+style_transformations.html
+style_transitions.html
+style_borders.html
+style_margins.html
+style_padding.html
+responsive_design.html
+responsive_vendor-prefixes.html
+responsive_media_selectors.html
+
+
+

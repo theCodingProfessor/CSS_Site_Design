@@ -1,0 +1,241 @@
+/* (c) Clinton Garwood
+   Core Style Sheet for CSS demo
+   This sheet styles the Header, Navbar and External Site Buttons
+   JJC CIS-221 Spring 2022 */
+
+
+/* Styling the Main Header for the site:
+   The main header lives inside of a Bootstrap jumbotron (a div)
+   which has a background color of a light green, dark text,
+   with its content slightly pushed in from the left
+   the H1, h2, p and href-link will each be styled independently
+*/
+
+.jumbotron {
+    background-color: #7cfda5;
+    color: #000007;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+.skip_to_main {
+    /* Accessibility Feature allows screen readers to skip to main content
+    This can be set to display: none; without problems to site design while
+      still providing functionality to screen readers
+    Color is customized to a very deep blue - color: 000060;
+    inherits jumbotron left padding
+    resets jumbotron font-weight to normal
+    */
+    font-weight: normal;
+    color: rgb(0, 0, 128);
+}
+
+.header_titles {
+    /* This is <h1> and <h2> inside the header-jumbotron
+    font (color is customized to black, made large, and weight is added);
+    inherits jumbotron left padding - but adds padding to top of each element
+    */
+    color:#000007;
+    font-size: xx-large;
+	font-weight: bold;
+    padding-top: 10px;
+}
+
+.header_description {
+    /* This is the <p> paragraph tag in the jumbo-tron header
+    Color inherits jumbotron font black and left padding
+    This adds a bit of top-padding to break free from the h2 header
+    */
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: large;
+}
+
+/* Styling the Site Navbar (main menu) for the site:
+   The main menu lives inside of a Bootstrap nav (a div)
+   which has a background color of a light green, dark text,
+   with its content slightly pushed in from the left
+   the H1, h2, p and href-link will each be styled independently
+*/
+nav {
+    /*  padding pushes the interior content left;
+     replace padding with margin to see the distinction
+     between padding and margin */
+    padding-left: 50px;
+}
+.navbar-nav li a{
+    color: #000 !important;
+}
+.current {
+    background-color: #7cfda5;
+    font-weight: bold;
+}
+
+
+/* Basic Content Area - For 'main' run of content on a page:
+   These buttons make use of Bootstrap button (css properties)
+   There are three kinds of buttons:
+     Mozilla  .moz
+     W3Consortium .w3c
+     W3Schools .w3s
+     Bootstrap .bst
+*/
+
+.content_title {
+    /* This is the <h3> inside the main content section of the page
+    font (color is customized to black, made large, and weight is added);
+    inherits jumbotron left padding - but adds padding to top of each element
+    */
+    color:#000007;
+    font-size: xx-large;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+article {
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+article > p {
+    color:#000007;
+    font-size: large;
+    font-weight: normal;
+    padding-top: 5px;
+    margin-left: 1.5em;
+}
+
+article > blockquote{
+    margin-left: 2.5em;}
+
+.topics_description {
+    color:#000007;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.topic_title {
+    color:#000007;
+    font-size: .8em;
+    padding-top: 10px;
+}
+
+.topic_code {
+    font-size: large;
+    color: crimson;
+}
+
+code {
+    font-size: large;
+    color: crimson;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px
+}
+
+.in_code {
+    padding-left: 50px;
+}
+
+.en_code {
+    padding-left: 70px;
+}
+
+.half_style_line{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Styling Site Page Buttons (other pages on the site):
+   These buttons are called out with class in_link and
+
+*/
+
+.in_link {
+    color: #000;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.site_link {
+    background-color: rgb(124, 253, 165);
+    border-color: rgb(24, 131, 191);
+    width: 100%;
+}
+
+/* Styling the Site Buttons (external sources) for the site:
+   These buttons make use of Bootstrap button (css properties)
+   There are three kinds of buttons:
+     Mozilla  .moz
+     W3Consortium .w3c
+     W3Schools .w3s
+     Bootstrap .bst
+*/
+
+.ex_link {
+    color: #FFF;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.moz{
+    background-color: rgb(255,64,65);
+    width: 100%;
+}
+
+.moz:hover {
+    color: #FFF !important;
+    background-color: darkred;
+}
+
+.w3c{
+    background-color: rgb(26,94,154);
+    width: 100%;
+}
+.w3c:hover {
+    color: #FFF !important;
+    background-color: blue;
+}
+
+.w3s{
+    background-color: rgb(4,170,109);
+    width: 100%;
+}
+.w3s:hover {
+    color: #FFF !important;
+    background-color: green;
+}
+
+.bst{
+    background-color: rgb(121,82,179);
+    width: 100%;
+}
+.bst:hover {
+    color: #FFF !important;
+    background-color: purple;
+}
+
+.four_links {
+    display:inline-block;
+    width: 21%;
+}
+.three_links{
+    width: 29%;
+    display:inline-block;
+}
+.two_links{
+    width: 45%;
+    display:inline-block;
+}
+
+.foot_data {
+    text-align: center;
+}

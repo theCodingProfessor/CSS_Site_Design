@@ -1,0 +1,30 @@
+/* (c) Clinton Garwood
+   Main Style Sheet for CSS demo
+   This page is generally used to style items on individual pages
+   Each page with individual styes is coded by page_name.html
+   JJC CIS-221 Spring 2022 */
+
+
+/* Start styles for index.html page */
+.button_table_main {
+    width: 100%;
+    border: none;
+}
+
+.button_table_columns thead, td{
+    width: 24%;
+    border: none;
+}
+/* End styles for index.html page */
+
+
+/* Styles for External Icon Library Demo */
+.icon-container {
+    font-size: 50px; }
+
+.fa-code { color: red; }
+
+/* Styles for External Font Library Demo */
+#use_goofont {
+    font-family: 'Tangerine', serif;
+    font-size: 48px; }

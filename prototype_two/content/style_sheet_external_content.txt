@@ -1,0 +1,51 @@
+
+css_style_sheet_external.html
+
+Content: 
+
+An external CSS style sheet is a text file, saved with an (.css) extension that provides CSS style attributes to one or more html files in a website project. In order for an external style sheet to be connected to html pages, each page which will use the style sheet needs to link to that style sheet, typically in the head section of the html document. 
+
+External style sheets can have any name the developer decides to use, and by convention they need to have a .css file extension. It is also customary to save this file (or files of this type) in a folder, or directory, named /css/. Some examples of paths to files like these could include: 
+
+project/css/site_style.css
+project/css/styles.css
+project/css/main_style.css
+
+
+Inside the external style sheet we find the selector and attributes for each style which is defined. 
+
+External style sheets can include comments, which open with a forward slash and an asterick  /* , and close with a asterick and a forward slash */ . Any characters, including over several lines, are comments, and are not parsed by the browser when intepreting the code. A common sourse of error is to include a comment inside of the curly brackets of a CSS selector. 
+
+/* This comment is okay  */ 
+p { 
+  /* This comment will cause problems */ 
+  color: red;
+  } 
+
+
+Although an external style sheet uses the same syntax as an internal style sheet to declare selectors and define characteristics of design, an external style sheet does not have the <style></style> brackets anywhere in the file. These style tags are only used in the html page, and are not present in the external style sheet. 
+
+In order to connect an external style sheet with an html page we need to 'link' the two, and this link appears directly inside any/each html page that wants to use the CSS styling. We most often do this inside the existing head tag, for example: 
+
+<head>
+     <link href="./css/styles.css" rel="stylesheet">
+<head>
+  <p>Make this red</p>
+
+The example above relates to a project folder layout as follows - keeping in mind the (folder) and (file) words simply represent labels for this demonstation and would not be found in the actual project:
+my_project (folder)
+ index.html (file)
+ ./css (folder)
+   styles.css (file)
+
+External Links: 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+https://www.w3schools.com/html/html_css.asp
+
+Internal Links: 
+internal_style_sheets.css
+inline_style_sheets.css
+css_style_sheets.html
+
+
+ 

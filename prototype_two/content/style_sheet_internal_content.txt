@@ -1,0 +1,50 @@
+
+css_style_sheet_internal.html
+
+Content: 
+
+An internal CSS style sheet is a section of text within an html text file which defines selectors and styles. Key to the internal CSS style sheet, is that the CSS Styles which are defined must be declared BEFORE they are used by html elements. It is because of this requirement that internal style sheets are typically declared in the <head></head> section of an html document. 
+
+It is possible, however to also declare an internal style sheet in the <body></body> section of an html document, keeping in mind tht the style declarations must come before the elements which use them. 
+
+To declare an internal style sheet a pair of style tags must be used (open and close style tag), and any styles which are subsequently defined must be properly contained inside of those tags. 
+
+For example to make all paragraph tags in an html page be displayed as a red font color the following style section would be declared in the head section: 
+
+<head>
+ <style>
+  p { color: red;" }
+ </style>
+<head>
+
+Multiple internal style sheets can be used in a single document, and as mentioned they can be in the body section of an html document. To illustrate this consider the following which first styles a paragraph tag red, and then another as blue. 
+
+
+<body>
+ <style>
+  p { color: red;" }
+ </style>
+<p>This text will be red</p>
+ <style>
+  p { color: blue;" }
+ </style>
+<p>This text will be blue</p>
+</body>
+
+
+Inline CSS styling requires using opening and closing <style></style> tags, where the css element is identified and styled inside of those tags. Converting the example above to use internal style sheet tags would result in: 
+
+<style>
+ p { color: red; }
+ <p>Make this red</p>
+
+External Links: 
+https://developer.mozilla.org/en-US/docs/Web/CSS
+https://www.w3schools.com/CSS/css_howto.asp
+
+Internal Links: 
+style_sheet_external.html
+inline_style_sheets.css
+css_style_sheets.html
+
+ 

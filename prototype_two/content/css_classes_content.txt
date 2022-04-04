@@ -1,0 +1,33 @@
+
+css_classes.html
+
+Content: 
+
+CSS class selectors allow individual html elements to be styled by adding a tag, or a class name to the html tag of the element. CSS class tags are a flexible option which is useful to style both a single element or multiple elements on one more more pages in a website. 
+
+CSS class selectors are used extensively by third-party libraries like Bootstrap, Animate, Font Awesome, Ionic and more, to provide immediate style support to web designers. 
+
+Class selectors can be used with inline and external style sheets, but provide the most flexiblity when used with external style sheets and third party (web-linked) solutions. 
+
+The basic syntax for a CSS class selector: 
+(css = .class_name{} ) (html class="class_name")
+
+The following code shows how you might change a font to red two separate elements by using the class tag using an internal style sheet. The example shows that in the css code we use the period (.) symbol before the name of the class to indicate that we are styling a css class.  
+
+In addition, the example shows that we can have multiple class selectors for an individual item. Below we see that we use one class selector to change the paragraph text red, and then use a second css class selector to set the background color for that element to blue. 
+
+<style>
+ .make_red { color: red; }
+ .go_blue { background-color: blue; }
+</style>
+
+ <h2 class="make_red">Make me Red</h2>
+ <p class="make_red go_blue">Make me Red Too</p>
+
+
+
+css_classes.html
+https://developer.mozilla.org/en-US/docs/Web/CSS
+https://www.w3schools.com/cssref/sel_class.asp
+https://www.w3.org/TR/selectors-3/
+ 

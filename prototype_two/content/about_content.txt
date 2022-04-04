@@ -1,0 +1,16 @@
+
+About this Website 
+
+The style of a website is important, and we can control many things including the fonts, color, elements, layout and much more, all through the use of CSS (Cascading Style Sheets). 
+
+The purpose of this site is to provide a pratical, working demonstration of using CSS to Style an HTML-5 website using modern CSS principles.
+
+The scope of this website is introductory in nature, and does not intend to be a complete reference for any individual topic, or for the entire breadth of CSS (prior, current or future versions). The site was developed to act as an example that students can follow to understand basic principles of website design. 
+
+Each page on the site (see robots.txt page for full-site page list) will demonstrate a differrent CSS styling technique. These demonstrations will include a basic description of what the technique can be used for, a sample of the code being demonstrated (css and html), and provide an illustration of how an element can be styled using that technique. 
+
+Pages which demonstrate larger topics like responsive web design, and page layout techniques may use other tactics to explain the topic, so as not to interfere with the overall site functionality. 
+
+
+
+

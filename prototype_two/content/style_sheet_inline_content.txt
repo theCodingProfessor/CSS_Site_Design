@@ -1,0 +1,40 @@
+
+style_sheet_inline.html
+
+Content: 
+
+Inline CSS styling is an old-school way to apply a style directly to an html tag, and can still be useful as a work-around solution when other methods cannot be configured to enforce a style rule we desire. 
+
+To apply inline styling a different version of CSS syntax is required which not only changes the way we declare a tag, but also (often) requires us to learn (or relearn) a complete new set of css property names and values. A great deal of frustration can take place when trying to apply internal or external style rules as an inline style. 
+
+Inline styling takes place directly at the location of the html element. Example of how an html paragraph tag with inline styling to make the font color red: <p style="color:red">Make this red</p>.
+
+Unlike internal style sheets, inline CSS styling DOES NOT require a separate section where opening or closing <style></style> tags are included, however within the tag for the html element, we must designate the styling with a style call which uses the style word, an equals sign, and the style paramaters enclosed with "quotation marks" For example, to style a paragraph tag with red font we would need to write inside the body tag of an html page:
+
+<body>
+  <p style="color=red">Make this red</p>
+<body>
+
+It is also important for a web developer to understand that inline style rules do not 'cascade' past the individual element which they are connected to. For example consider the code below, to illustrate that the style applied to one tag is not connected to any other tag on the page. 
+
+<body>
+  <p style="color=blut">This will be blue</p>
+  <p>This will be default black color</p>
+  <p style="color=red">This will be red</p>
+  <p>This will be default black color</p>
+<body>
+
+
+External Links:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Inline_formatting_context
+https://www.w3schools.blog/inline-css
+https://www.w3.org/TR/selectors-3/
+
+Site Links: 
+css_style_sheet_internal.html
+css_style_sheet_external.html
+css_style_sheets.html
+
+
+
+ 

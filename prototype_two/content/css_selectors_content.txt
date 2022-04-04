@@ -1,0 +1,39 @@
+
+css_selectors.html
+
+Content: 
+
+CSS selectors are used to select and style elements within the HTML DOM (Document Object Model). The primary types of selectors are class, element, id, descendant, next and preceeding, attribute and pseudo selectors. 
+
+CSS Class Selector: 
+(css = .class_name{} ) (html class="class_name")
+
+CSS ID Selector:
+(css = #id_tag_name{} ) (html id="id_tag_name")
+
+CSS HTML Element Selector:
+(css = p{} ) ( html <p></p> )
+
+CSS Descendent Selector: 
+(css  = div > p{} ) (html <div><p></p></div> )
+
+CSS Next Element Selector:
+( css = div + p {} ) (html <div><p></p></div> )
+
+CSS Preceeding Element Selector:
+( css = div ~ p {} ) (html <p></p><div></div> )
+
+CSS With Attribute=value Selector:
+( css = [target=_blank] {} ) ( <a href="#" target="_blank" )
+
+CSS Pseudo Selectors: 
+ a:link {}
+ a:visited {}
+ a:hover {}
+ a:active {}
+
+
+Links: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+https://www.w3schools.com/cssref/css_selectors.asp
+https://www.w3.org/Style/CSS/Overview.en.html

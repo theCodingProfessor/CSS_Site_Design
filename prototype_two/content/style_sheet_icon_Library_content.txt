@@ -1,0 +1,61 @@
+
+style_sheet_icon_library
+
+Content: 
+
+Third-Party icon libraries provide us with a way to add visual icons and simple line drawings to our website in a fast and efficient manner.
+
+Much like linking html pages to external style sheets so that elements can be styled, we can also import third-party resources which enhance our site's presentation and design.
+
+To do this, we must 1) find a content sources that provide us with icons, or images which help us tell our story; 2) determine if the images and icons are free to use (i.e. public domain) or understand the license restrictions if there is one; 3) Link to the library (in the head section); 4) Connect to the icon we want with an html tag. 
+
+We also can add some custom style to the icon if we like once we have configured the page to connect to the resource. 
+
+For this example we will look at the icon library provided by fontawesome, and we will connect to Version 6, using their public API and Content Delivery Network URL. 
+
+First in the head section we must reference the CDN link: 
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head> 
+
+Next in the html we will create a container (here it will be named icon-container. Inside the div (container) we will 'call' or reference an icon (this one is a coding bracket symbol). 
+
+<div class="icon-container">
+  <i class="fa-solid fa-code"></i>
+</div>
+
+Notice that the way we reference this is by class id. The link we imported in the head section is simply a library of CSS classes, and it is this library which has these classes defined. 
+
+We could also call other library icons: 
+
+<div class="icon-container">
+    <i class="fa-solid fa-handshake"></i>
+    <i class="fa-solid fa-satellite-dish"></i>
+    <i class="fa-solid fa-users-rays"></i>
+    <i class="fa-solid fa-square-root-variable"></i>
+    <i class="fa-solid fa-dharmachakra"></i>
+    <i class="fa-solid fa-recycle"></i>
+</div>
+
+We are also able to Style these icons if we like. Using an internal style sheet (defined in the head section, we can make all the icons larger, and make the Code icon appear red as follows: 
+
+<style>
+  .icon-container { font-size: 50px; }
+  .fa-code { color: red; }
+</style>
+
+
+External Links:
+https://www.w3schools.com/css/css3_fonts.asp
+https://getbootstrap.com/docs/5.0/extend/icons/
+https://drafts.csswg.org/css2/#valdef-font-icon
+
+
+Site Links: 
+css_style_sheet_external.html
+css_style_sheets.html
+style_sheet_icon_library.html
+
+
+
+ 

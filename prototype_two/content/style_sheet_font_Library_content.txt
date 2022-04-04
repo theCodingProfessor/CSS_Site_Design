@@ -1,0 +1,47 @@
+
+style_sheet_font_library.html
+
+Content: 
+
+In addition to the messages that our words carry for our site, the font, or the style of the text which we present, also can carry a message. To help our messages do double duty we can look to the presentation of our font-style to help us make a great presentation. 
+
+Every browser which will eventually render our message already has a library of fonts which it can lean on to make sure our words reach the screen. Often, however, the fonts which are built in are not exactly how we want our words to appear, and when these embedded libraries won't do the trick, we can reach out and connect to online font libaries for support. 
+
+Font libraries are not a replacement for ways which we can already style text, like with <em>, <strong> or color and background tags. In fact font libraries actually change (or extend sometimes dramatically too) the possible number of fonts available for our presention. 
+
+Like icon libraries we we must 1) Find a content source that provides us with a library of fonts; 2) Determine if the font offerd are free to use (i.e. public domain) or understand the license restrictions if not; 3) Link to the library (in the head section of each html page using the font library); and 4) Connect the html elements we want to style with the library in our css file.  
+
+A common library many developers use is the Google Fonts library. This example will illustrate the technique which is described in greater detail here: https://developers.google.com/fonts/docs/getting_started 
+
+The stylesheet link which needs to be included, must actually point the the particular font which is being referenced. It is this specificity which is needed to actually use the font requested. The library here points to a font named Tangerine, and the included link will look like this:  https://fonts.googleapis.com/css?family=Tangerine"
+
+Keep in mind that even though our page now has the font connected to it, we must connect that font-family to any html element we want styled with that font face. In this case this is a code sample of what the head, and the styled paragraph would be: 
+
+<head>
+ <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Tangerine">
+ <style>
+  p { font-family: 'Tangerine', serif; }
+ </style>
+</head>
+<body>
+<p>This will be rendered in the Tangerine font style</p>
+</body>
+
+
+
+External Links:
+style_sheet_font_library.html
+https://www.w3schools.com/css/css_font.asp
+https://getbootstrap.com/docs/5.0/utilities/text/#font-size
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+https://www.w3.org/TR/CSS/#biblio-css-fonts-3
+
+Site Links: 
+css_style_sheet_internal.html
+css_style_sheet_external.html
+css_style_sheets.html
+
+
+
+ 
